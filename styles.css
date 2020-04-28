@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F7F7;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", "Helvetica", sans-serif;
+}
+
+.header {
+    width: 100vw;
+    height: 3rem;
+    padding: 0 1rem;
+    background-color: #313131;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid #AF1E2D;
+}
+
+.header-title {
+    color: #F7F7F7;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    text-transform: uppercase;
+}
+
+.header-tools {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.clicks {
+    text-align: center;
+    margin: auto;
+    width: 4rem;
+}
+
+.btn {
+    width: 150px;
+    height: 35px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-pink {
+    color: #F7F7F7;
+    background-color: #D8008D;
+}
+
+.btn-red {
+    color: #F7F7F7;
+    background-color: #AF1E2D;
+}
+
+.btn:last-of-type {
+    margin-left: 1rem;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.game-clicker {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    border: none;
+    outline: none;
+    background-color: #AF1E2D;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.8);
+    cursor: pointer;
+
+    color: rgba(200,200,200,0.85);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.game-clicker:active {
+    background-color: #BF1E2D;
+}
+
+.game-clicker-counter {
+    width: 150px;
+    text-align: center;
+    font-size: 4rem;
+    padding: 50px 0;
+    border: 1px solid #313131;
+    background-color: #EEE;
+}
